@@ -2,8 +2,8 @@
 {
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)
-        _MainTex ("Base (RGB)", 2D) = "white" {}
+		_LevelArt ("Level Art (RGB)", 2D) = "white" {}
+        _MainTex ("Revealed Area (RGB)", 2D) = "white" {}
 	}
 		SubShader
 	{
@@ -16,15 +16,7 @@
 		// Physically based Standard lighting model, and enable shadows on all light types
 		#pragma surface surf Lambert alpha
 
-
-		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, float aten) {
-			fixed4 color;
-			color.rgb = s.Albedo;
-			color.a = s.Alpha;
-			return color;
-		}
-
-		fixed4 _Color;
+		sampler2D _LevelArt;
 		sampler2D _MainTex;
 
 		struct Input {
@@ -33,8 +25,9 @@
 
 		void surf(Input IN, inout SurfaceOutput o) {
 			half4 baseColor = tex2D(_MainTex, IN.uv_MainTex);
-			o.Albedo = _Color.rgb * baseColor.b;
-			o.Alpha = _Color.a - baseColor.g;
+			half4 levelArt = tex2D(_LevelArt, IN.uv_MainTex);
+			o.Albedo = levelArt.rgb * baseColor.b;
+			o.Alpha = levelArt.a - baseColor.g;
 		}
 		ENDCG
     }
