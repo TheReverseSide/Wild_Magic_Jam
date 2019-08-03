@@ -41,7 +41,14 @@ public class FOVMeshGenerator : MonoBehaviour
         {
             RaycastHit hit;
             if (Physics.Raycast(new Ray(transform.position, lastDirection), out hit, radius, clippingLayers)){
-                points[i + 1] = hit.point - transform.position;
+                if ((hit.point - transform.position).magnitude < radius / 2)
+                {
+                    points[i + 1] = hit.point - transform.position + lastDirection * radius/2;
+                } else
+                {
+                    points[i + 1] = lastDirection * radius;
+                }
+                
             } else
             {
                 points[i + 1] = lastDirection * radius;

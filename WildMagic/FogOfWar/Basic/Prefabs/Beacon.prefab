@@ -250,6 +250,16 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: radius
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: angleBetweenPoints
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8517026470864557945, guid: e63c55fda3d48e642b49bccd130ace97, type: 3}
     - {fileID: 8517026470864557944, guid: e63c55fda3d48e642b49bccd130ace97, type: 3}
