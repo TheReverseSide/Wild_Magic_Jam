@@ -36,7 +36,7 @@ public class FOVMeshGenerator : MonoBehaviour
     {
         Vector3[] points = new Vector3[Mathf.RoundToInt(360/angleBetweenPoints) + 1];
         points[0] = Vector3.zero;
-        Vector3 lastDirection = Vector3.forward;
+        Vector3 lastDirection = Vector3.right;
         for (int i = 0; i < Mathf.RoundToInt(360 / angleBetweenPoints); i++)
         {
             RaycastHit hit;
@@ -47,7 +47,7 @@ public class FOVMeshGenerator : MonoBehaviour
                 points[i + 1] = lastDirection * radius;
             }
 
-            lastDirection = Quaternion.Euler(0,angleBetweenPoints,0) * lastDirection;
+            lastDirection = Quaternion.Euler(0,0,-angleBetweenPoints) * lastDirection;
         }
         return points;
     }
