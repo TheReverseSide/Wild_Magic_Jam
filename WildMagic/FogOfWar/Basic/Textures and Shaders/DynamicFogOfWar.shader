@@ -2,7 +2,7 @@
 {
     Properties
     {
-		_LevelArt ("Level Art (RGB)", 2D) = "white" {}
+		_LevelArt ("Level Art (RGB)", 2D) = "clear" {}
         _MainTex ("Revealed Area (RGB)", 2D) = "white" {}
 	}
 		SubShader
@@ -21,13 +21,14 @@
 
 		struct Input {
 			float2 uv_MainTex;
+			float2 uv_LevelArt;
 		};
 
 		void surf(Input IN, inout SurfaceOutput o) {
 			half4 baseColor = tex2D(_MainTex, IN.uv_MainTex);
-			half4 levelArt = tex2D(_LevelArt, IN.uv_MainTex);
-			o.Albedo = levelArt.rgb * baseColor.b;
-			o.Alpha = levelArt.a - baseColor.g;
+			half4 levelArt = tex2D(_LevelArt, IN.uv_LevelArt);
+			o.Albedo = levelArt.rgb - baseColor.g;
+			o.Alpha =  levelArt.a - baseColor.b;
 		}
 		ENDCG
     }

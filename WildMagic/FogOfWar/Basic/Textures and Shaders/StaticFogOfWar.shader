@@ -2,7 +2,7 @@
 {
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)
+        _Color ("Color", Color) = (0,0,0,1)
         _MainTex ("Base (RGB)", 2D) = "white" {}
 	}
 		SubShader
@@ -16,14 +16,6 @@
 		// Physically based Standard lighting model, and enable shadows on all light types
 		#pragma surface surf Lambert alpha
 
-
-		fixed4 LightingNoLighting(SurfaceOutput s, fixed3 lightDir, float aten) {
-			fixed4 color;
-			color.rgb = s.Albedo;
-			color.a = s.Alpha;
-			return color;
-		}
-
 		fixed4 _Color;
 		sampler2D _MainTex;
 
@@ -33,8 +25,8 @@
 
 		void surf(Input IN, inout SurfaceOutput o) {
 			half4 baseColor = tex2D(_MainTex, IN.uv_MainTex);
-			o.Albedo = _Color.rgb * baseColor.b;
-			o.Alpha = _Color.a - baseColor.g;
+			o.Albedo = _Color.rgb * baseColor.g;
+			o.Alpha = _Color.a - baseColor.b;
 		}
 		ENDCG
     }

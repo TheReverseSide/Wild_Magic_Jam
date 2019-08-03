@@ -50,6 +50,12 @@ public class SceneSwapper : MonoBehaviour
         LoadCurrentScene();
     }
 
+    public void JumpToCredits()
+    {
+        currentScene = SceneSelect.Credits;
+        LoadCurrentScene();
+    }
+
     public void RestartLevel()
     {
         LoadCurrentScene();
