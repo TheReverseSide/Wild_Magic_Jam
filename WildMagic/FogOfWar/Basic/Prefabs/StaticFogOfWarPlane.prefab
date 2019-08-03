@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7124848471538586502}
   - component: {fileID: 7124848471538586501}
   m_Layer: 0
-  m_Name: FogOfWarPlane
+  m_Name: StaticFogOfWarPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 229a68c8d8341e248b62d446658e8fac, type: 2}
+  - {fileID: 2100000, guid: 0ac2e63a8e51fd947a755aaa2dcbaf5f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

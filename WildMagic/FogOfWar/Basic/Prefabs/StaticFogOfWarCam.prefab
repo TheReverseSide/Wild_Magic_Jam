@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3142211755505271770}
   - component: {fileID: 3142211755505271765}
   m_Layer: 0
-  m_Name: FogOfWarCam
+  m_Name: StaticFogOfWarCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,9 +63,9 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 512
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 1e4244066a1d28d459aedc0e8fe53b0d, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 3c7585a7113b44049a73630a1c799ae3, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1

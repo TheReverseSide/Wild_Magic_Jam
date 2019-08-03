@@ -1,4 +1,4 @@
-﻿Shader "Custom/FogOfWarMask"
+﻿Shader "Custom/DynamicFogOfWarMask"
 {
     Properties
     {
