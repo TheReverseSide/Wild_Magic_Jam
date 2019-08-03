@@ -5,17 +5,27 @@ using UnityEngine.SceneManagement;
 public class SceneSwapper : MonoBehaviour
 {
     public static SceneSwapper swapper;
+    public bool isPaused;
     public enum SceneSelect
     {
+        IntroCutscene,
         MainMenu,
+        Level1Intro,
         Level1,
+        Level2Intro,
         Level2,
+        Level3Intro,
         Level3,
         Credits
     }
 
     public SceneSelect currentScene;
 
+    public delegate void Paused();
+    public static Paused pausegame = null;
+
+    public delegate void UnPaused();
+    public static UnPaused unpausegame = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,60 +41,68 @@ public class SceneSwapper : MonoBehaviour
 
     private void Update()
     {
-        // TODO: Replace these key presses with events from buttons in game
-        if (Input.GetKeyDown(KeyCode.M))
+        if ((int)currentScene != SceneManager.GetActiveScene().buildIndex)
         {
-            ReturnToMenu();
-        } else if (Input.GetKeyDown(KeyCode.N))
+            currentScene = (SceneSelect)SceneManager.GetActiveScene().buildIndex;
+        }
+        if (currentScene == SceneSelect.Level1 || currentScene == SceneSelect.Level2 || currentScene == SceneSelect.Level3)
         {
-            GoToNextLevel();
-        } else if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                isPaused = true;
+                pausegame();
+            }
+
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                GoToNextLevel();
+            }
+        } else if (currentScene == SceneSelect.MainMenu)
         {
-            RestartLevel();
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
         }
     }
 
     public void ReturnToMenu()
     {
+        isPaused = false;
         currentScene = SceneSelect.MainMenu;
         LoadCurrentScene();
     }
 
     public void JumpToCredits()
     {
+        isPaused = false;
         currentScene = SceneSelect.Credits;
         LoadCurrentScene();
     }
 
     public void RestartLevel()
     {
+        isPaused = false;
+        currentScene--;
         LoadCurrentScene();
     }
 
     public void GoToNextLevel()
     {
-        switch (currentScene) {
-            case SceneSelect.MainMenu:
-                currentScene = SceneSelect.Level1;
-                break;
-            case SceneSelect.Level1:
-                currentScene = SceneSelect.Level2;
-                break;
-            case SceneSelect.Level2:
-                currentScene = SceneSelect.Level3;
-                break;
-            case SceneSelect.Level3:
-                currentScene = SceneSelect.Credits;
-                break;
-            case SceneSelect.Credits:
-                currentScene = SceneSelect.MainMenu;
-                break;
+        isPaused = false;
+        if (currentScene == SceneSelect.Credits)
+        {
+            currentScene = SceneSelect.MainMenu;
+        } else
+        {
+            currentScene++;
         }
         LoadCurrentScene();
     }
 
     void LoadCurrentScene()
     {
+        isPaused = false;
         SceneManager.LoadScene((int)currentScene);
     }
 }
