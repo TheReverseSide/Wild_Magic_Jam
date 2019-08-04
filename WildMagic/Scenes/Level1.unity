@@ -2636,8 +2636,7 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3205313144239272981, guid: 9af9d7bca01197140846f2e723b486a2, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af9d7bca01197140846f2e723b486a2, type: 3}
 --- !u!1 &634088967
 GameObject:
@@ -7782,38 +7781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c4ad36d9962c194b82b83e9211f4268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1943941209 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3205313144239272977, guid: 9af9d7bca01197140846f2e723b486a2,
-    type: 3}
-  m_PrefabInstance: {fileID: 603313402}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1943941210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1943941209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7415205c7307c3f40a93fa2094f26c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1943941215}
-  agent: {fileID: 1943941214}
---- !u!195 &1943941214 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 603313406, guid: 9af9d7bca01197140846f2e723b486a2,
-    type: 3}
-  m_PrefabInstance: {fileID: 603313402}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1943941215 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 3205313144239272979, guid: 9af9d7bca01197140846f2e723b486a2,
-    type: 3}
-  m_PrefabInstance: {fileID: 603313402}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1985253430
 GameObject:
   m_ObjectHideFlags: 0
