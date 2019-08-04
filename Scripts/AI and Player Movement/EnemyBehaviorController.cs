@@ -20,15 +20,15 @@ public class EnemyBehaviorController : MonoBehaviour
         patrolBehavior.ManualStart();
         //Debug.Log("Attempting to manually start patrol" + patrolBehavior);
 
-        OnDrawGizmos();
+        //OnDrawGizmos();
     }
 
-    private void OnDrawGizmos()
-    {
-        // Draw a yellow sphere at the transform's position
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, searchRadius);
-    }
+    // private void OnDrawGizmos()
+    // {
+    //     // Draw a yellow sphere at the transform's position
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawWireSphere(transform.position, searchRadius);
+    // }
 
     void Update()
     {

@@ -6,13 +6,14 @@ public class Behavior_Patrol : MonoBehaviour
 {
     public Transform[] points;
 
-    private int destPoint = 0;
+    public int destPoint = 0;
     private NavMeshAgent agent;
     
     void Start () {
         agent = GetComponent<NavMeshAgent>();
 
         agent.autoBraking = false; // Disabling auto-braking allows for continuous movement between points (ie, the agent doesn't slow down as it pproaches a destination point).
+        gameObject.transform.rotation.x = 90;
     }
 
     public void ManualStart(){ 
@@ -32,9 +33,9 @@ public class Behavior_Patrol : MonoBehaviour
             agent.acceleration = Random.Range(4f, 10f); //Random speed variation
             agent.angularSpeed = Random.Range(80, 140); //Random turning speed
 
-            if(Random.Range(0,10) > 6){ //Occasionally the AI stops at random points
-                agent.autoBraking = true;
-            }else agent.autoBraking = false;
+            // if(Random.Range(0,10) > 6){ //Occasionally the AI stops at random points
+            //     agent.autoBraking = true;
+            // }else agent.autoBraking = false;
             
 
             // Set the agent to go to the currently selected destination.
@@ -47,7 +48,7 @@ public class Behavior_Patrol : MonoBehaviour
 
     void Update () {
         // Choose the next destination point when the agent gets close to the current one.
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        if (!agent.pathPending && agent.remainingDistance < 0.2f)
             GotoNextPoint();
     }
 }
