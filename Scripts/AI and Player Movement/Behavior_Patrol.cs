@@ -13,7 +13,7 @@ public class Behavior_Patrol : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
 
         agent.autoBraking = false; // Disabling auto-braking allows for continuous movement between points (ie, the agent doesn't slow down as it pproaches a destination point).
-        gameObject.transform.rotation.x = 90;
+        gameObject.transform.rotation= Quaternion.Euler(90,0,0);
     }
 
     public void ManualStart(){ 
