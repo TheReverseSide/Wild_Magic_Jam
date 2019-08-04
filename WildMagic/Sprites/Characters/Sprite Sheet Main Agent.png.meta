@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 8df8d14f286bcec43bcac676f38d6614
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2169613899980910373
+    second: Agent_Walk_South_0
+  - first:
+      213: 536032910364214572
+    second: Agent_Walk_South_1
+  - first:
+      213: 2518524269538837928
+    second: Agent_Walk_South_2
+  - first:
+      213: 215151795107311566
+    second: Agent_Walk_South_3
+  - first:
+      213: -411958034964249700
+    second: Agent_Walk_Left_0
+  - first:
+      213: 2558811703616433615
+    second: Agent_Walk_Left_1
+  - first:
+      213: 3203910909022733930
+    second: Agent_Walk_Left_2
+  - first:
+      213: -4143674066841597360
+    second: Agent_Walk_Left_3
+  - first:
+      213: -5514369983717760363
+    second: Agent_Walk_Right_0
+  - first:
+      213: 8918449242380845730
+    second: Agent_Walk_Right_1
+  - first:
+      213: -400201953711050410
+    second: Agent_Walk_Right_2
+  - first:
+      213: -3064013222478540409
+    second: Agent_Walk_Right_3
+  - first:
+      213: 4480400190403761797
+    second: Agent_Walk_North_0
+  - first:
+      213: 6161237810527860929
+    second: Agent_Walk_North_1
+  - first:
+      213: 91240644778884207
+    second: Agent_Walk_North_2
+  - first:
+      213: -2449723542988439186
+    second: Agent_Walk_North_3
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Agent_Walk_South_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227da9b2c2aa09e44be181370558495f
+      internalID: 2169613899980910373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_South_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bdd85e61a32a2459e2374271640139
+      internalID: 536032910364214572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_South_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f93eb31aad5d924a8e9f9a28f3e17ce
+      internalID: 2518524269538837928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_South_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4c2acbc28d230448aedc4e8e5eed07
+      internalID: 215151795107311566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Left_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 66
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d58c5f92fa56564aa615b7765a86365
+      internalID: -411958034964249700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Left_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4452de44cfced4499604ff1333974a1
+      internalID: 2558811703616433615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Left_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933d605ac2e2f9f4c9fb2e68726317aa
+      internalID: 3203910909022733930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Left_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 65
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eeaecd8fa2f764aaadf9d70a8753aa
+      internalID: -4143674066841597360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Right_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f7dcb24ce0c3e479d46000ea08baa9
+      internalID: -5514369983717760363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Right_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5468a2c904159a743a9a133e23c1c638
+      internalID: 8918449242380845730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Right_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6358c88a204068947889395987a449e6
+      internalID: -400201953711050410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_Right_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 34
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb810eb3dac5574895f13a45056dce1
+      internalID: -3064013222478540409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_North_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d00b9d89f39cf146922c2db8add6bde
+      internalID: 4480400190403761797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_North_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a62465f562ea4481a5884b426a00d
+      internalID: 6161237810527860929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_North_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815659589afe4a940a3420cded2ea7bb
+      internalID: 91240644778884207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agent_Walk_North_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2877d57a23d50324fa3be909aedf4ba5
+      internalID: -2449723542988439186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: df05fc4956b736640a1bd0b56fcc7f0b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

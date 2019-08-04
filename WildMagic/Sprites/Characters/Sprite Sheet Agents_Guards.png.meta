@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 82bf2cc66d503934c9346bb3b2a15e30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7429619243277183367
+    second: Guards_South_Walk_0
+  - first:
+      213: -2493192272975928846
+    second: Guards_South_Walk_1
+  - first:
+      213: -5796389189998536141
+    second: Guards_South_Walk_2
+  - first:
+      213: 9022120687340013159
+    second: Guards_South_Walk_3
+  - first:
+      213: -8743342983803178172
+    second: Guards_Left_Walk_0
+  - first:
+      213: -7054501874987653351
+    second: Guards_Left_Walk_1
+  - first:
+      213: -7469678251368892865
+    second: Guards_Left_Walk_2
+  - first:
+      213: -8018626758929893287
+    second: Guards_Left_Walk_3
+  - first:
+      213: 3660489062428259421
+    second: Guards_Right_Walk_0
+  - first:
+      213: -1257865918777177978
+    second: Guards_Right_Walk_1
+  - first:
+      213: 8289450434371241693
+    second: Guards_Right_Walk_2
+  - first:
+      213: -4850849566050033466
+    second: Guards_Right_Walk_3
+  - first:
+      213: 5398465691622280906
+    second: Guards_North_Walk_0
+  - first:
+      213: -2013788908774670579
+    second: Guards_North_Walk_1
+  - first:
+      213: 8004929328363903390
+    second: Guards_North_Walk_2
+  - first:
+      213: 3336604398646165468
+    second: Guards_North_Walk_3
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guards_South_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a4b5d949fbc7f45a24b35ec2a3b65b
+      internalID: 7429619243277183367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_South_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 96
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188301490e7cb8d43b52cd7a3fd1d680
+      internalID: -2493192272975928846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_South_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 99
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d3c4e92a56f384da8ec4e8365885c0
+      internalID: -5796389189998536141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_South_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e512e9e6c79f52c4590ec75a7cc66d89
+      internalID: 9022120687340013159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Left_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 66
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e9043baa81a0a4c8d21b9345c155ed
+      internalID: -8743342983803178172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Left_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594d4c29db860f94a839b8e856d0987c
+      internalID: -7054501874987653351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Left_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f80d871e261a948a42ef700d29b607
+      internalID: -7469678251368892865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Left_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 65
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a2a045d75e0764db8d2de4ed302a5a
+      internalID: -8018626758929893287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Right_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 34
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011e1b79721b02d41a96cdc5924e373c
+      internalID: 3660489062428259421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Right_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a704d70a128158f4db607b3c2953e41f
+      internalID: -1257865918777177978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Right_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 34
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab36e3628a0f704999a1edc0d668d39
+      internalID: 8289450434371241693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_Right_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 34
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7471ad783a39ec440ba2b9f2a7d2b491
+      internalID: -4850849566050033466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_North_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127bef6674c2e2748a1c2a550eeea56a
+      internalID: 5398465691622280906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_North_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea101c9842957c64d86a062fd2dc8907
+      internalID: -2013788908774670579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_North_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce38e186b02cd1459cd980fc4ef2dd8
+      internalID: 8004929328363903390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guards_North_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cebd45f4cb45b64fa36c9e12a190e61
+      internalID: 3336604398646165468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fd5f374e7bb1bdd4da72a3bcc4a61efc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
