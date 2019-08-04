@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 82bf2cc66d503934c9346bb3b2a15e30
+guid: 91cf651226fa97f46a8fd7004d6fd23b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7429619243277183367
-    second: Guards_South_Walk_0
+      213: 6098115833360108277
+    second: Agent8_South_Walk_0
   - first:
-      213: -2493192272975928846
-    second: Guards_South_Walk_1
+      213: -6607619886161303757
+    second: Agent8_South_Walk_1
   - first:
-      213: -5796389189998536141
-    second: Guards_South_Walk_2
+      213: 5218723941446868910
+    second: Agent8_South_Walk_2
   - first:
-      213: 9022120687340013159
-    second: Guards_South_Walk_3
+      213: 3220998226153215121
+    second: Agent8_South_Walk_3
   - first:
-      213: -8743342983803178172
-    second: Guards_Left_Walk_0
+      213: 7851573875143304621
+    second: Agent8_Left_Walk_0
   - first:
-      213: -7054501874987653351
-    second: Guards_Left_Walk_1
+      213: 908956351536023095
+    second: Agent8_Left_Walk_1
   - first:
-      213: -7469678251368892865
-    second: Guards_Left_Walk_2
+      213: -2974511488488292454
+    second: Agent8_Left_Walk_2
   - first:
-      213: -8018626758929893287
-    second: Guards_Left_Walk_3
+      213: 5222953073020263114
+    second: Agent8_Left_Walk_3
   - first:
-      213: 3660489062428259421
-    second: Guards_Right_Walk_0
+      213: -2019312906370678584
+    second: Agent8_Right_Walk_0
   - first:
-      213: -1257865918777177978
-    second: Guards_Right_Walk_1
+      213: -5366269375509530143
+    second: Agent8_Right_Walk_1
   - first:
-      213: 8289450434371241693
-    second: Guards_Right_Walk_2
+      213: 1712533457984812166
+    second: Agent8_Right_Walk_2
   - first:
-      213: -4850849566050033466
-    second: Guards_Right_Walk_3
+      213: -5904861070123532128
+    second: Agent8_Right_Walk_3
   - first:
-      213: 5398465691622280906
-    second: Guards_North_Walk_0
+      213: 1997432802903690708
+    second: Agent8_North_Walk_0
   - first:
-      213: -2013788908774670579
-    second: Guards_North_Walk_1
+      213: -6552281975114635823
+    second: Agent8_North_Walk_1
   - first:
-      213: 8004929328363903390
-    second: Guards_North_Walk_2
+      213: -3768065635031969481
+    second: Agent8_North_Walk_2
   - first:
-      213: 3336604398646165468
-    second: Guards_North_Walk_3
+      213: -2879964410220711826
+    second: Agent8_North_Walk_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -132,91 +132,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guards_South_Walk_0
+      name: Agent8_South_Walk_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 8
         y: 99
-        width: 17
+        width: 15
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6a4b5d949fbc7f45a24b35ec2a3b65b
-      internalID: 7429619243277183367
+      spriteID: 397ad7fe33aef2a4f883f0094cc3a48c
+      internalID: 6098115833360108277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_South_Walk_1
+      name: Agent8_South_Walk_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 40
         y: 96
-        width: 17
+        width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188301490e7cb8d43b52cd7a3fd1d680
-      internalID: -2493192272975928846
+      spriteID: 25b16754c1f24a3458b9811f04d06d3b
+      internalID: -6607619886161303757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_South_Walk_2
+      name: Agent8_South_Walk_2
       rect:
         serializedVersion: 2
-        x: 71
+        x: 72
         y: 99
-        width: 17
+        width: 15
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d3c4e92a56f384da8ec4e8365885c0
-      internalID: -5796389189998536141
+      spriteID: 34281befaeddca941b81976f50523504
+      internalID: 5218723941446868910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_South_Walk_3
+      name: Agent8_South_Walk_3
       rect:
         serializedVersion: 2
-        x: 103
+        x: 104
         y: 96
-        width: 17
+        width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e512e9e6c79f52c4590ec75a7cc66d89
-      internalID: 9022120687340013159
+      spriteID: e0bbe29abb6685341b232e231cff85b6
+      internalID: 3220998226153215121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Left_Walk_0
+      name: Agent8_Left_Walk_0
       rect:
         serializedVersion: 2
         x: 8
@@ -224,20 +224,20 @@ TextureImporter:
         width: 14
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6e9043baa81a0a4c8d21b9345c155ed
-      internalID: -8743342983803178172
+      spriteID: 86001138de21f7e4ca3fdf7fe0942c17
+      internalID: 7851573875143304621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Left_Walk_1
+      name: Agent8_Left_Walk_1
       rect:
         serializedVersion: 2
         x: 39
@@ -245,20 +245,20 @@ TextureImporter:
         width: 15
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 594d4c29db860f94a839b8e856d0987c
-      internalID: -7054501874987653351
+      spriteID: 8ca9e81b367e13444bb24c3c2bce00b2
+      internalID: 908956351536023095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Left_Walk_2
+      name: Agent8_Left_Walk_2
       rect:
         serializedVersion: 2
         x: 72
@@ -266,20 +266,20 @@ TextureImporter:
         width: 14
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f80d871e261a948a42ef700d29b607
-      internalID: -7469678251368892865
+      spriteID: 2d06c571ab7cd7c4fabe60f23cf5856f
+      internalID: -2974511488488292454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Left_Walk_3
+      name: Agent8_Left_Walk_3
       rect:
         serializedVersion: 2
         x: 103
@@ -287,20 +287,20 @@ TextureImporter:
         width: 14
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a2a045d75e0764db8d2de4ed302a5a
-      internalID: -8018626758929893287
+      spriteID: 7253d5cd61f875b4ca5cfba717ac43e7
+      internalID: 5222953073020263114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Right_Walk_0
+      name: Agent8_Right_Walk_0
       rect:
         serializedVersion: 2
         x: 10
@@ -308,20 +308,20 @@ TextureImporter:
         width: 14
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 011e1b79721b02d41a96cdc5924e373c
-      internalID: 3660489062428259421
+      spriteID: 8c19385647b0bf84ca88cd9939466c65
+      internalID: -2019312906370678584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Right_Walk_1
+      name: Agent8_Right_Walk_1
       rect:
         serializedVersion: 2
         x: 40
@@ -329,20 +329,20 @@ TextureImporter:
         width: 15
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a704d70a128158f4db607b3c2953e41f
-      internalID: -1257865918777177978
+      spriteID: e0c75ddb05b8a9b4892178a4752d3ccc
+      internalID: -5366269375509530143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Right_Walk_2
+      name: Agent8_Right_Walk_2
       rect:
         serializedVersion: 2
         x: 74
@@ -350,20 +350,20 @@ TextureImporter:
         width: 14
         height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab36e3628a0f704999a1edc0d668d39
-      internalID: 8289450434371241693
+      spriteID: cd7b5677a49169d42aba42777d09de26
+      internalID: 1712533457984812166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_Right_Walk_3
+      name: Agent8_Right_Walk_3
       rect:
         serializedVersion: 2
         x: 105
@@ -371,20 +371,20 @@ TextureImporter:
         width: 14
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7471ad783a39ec440ba2b9f2a7d2b491
-      internalID: -4850849566050033466
+      spriteID: 73fefb53d625a82469e04ba200af1aab
+      internalID: -5904861070123532128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_North_Walk_0
+      name: Agent8_North_Walk_0
       rect:
         serializedVersion: 2
         x: 7
@@ -392,20 +392,20 @@ TextureImporter:
         width: 17
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 127bef6674c2e2748a1c2a550eeea56a
-      internalID: 5398465691622280906
+      spriteID: 843b2c33da0fd8649ab53acec50c5370
+      internalID: 1997432802903690708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_North_Walk_1
+      name: Agent8_North_Walk_1
       rect:
         serializedVersion: 2
         x: 38
@@ -413,20 +413,20 @@ TextureImporter:
         width: 17
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea101c9842957c64d86a062fd2dc8907
-      internalID: -2013788908774670579
+      spriteID: 908d679fb45ca0640b9f0941bd91f4e0
+      internalID: -6552281975114635823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_North_Walk_2
+      name: Agent8_North_Walk_2
       rect:
         serializedVersion: 2
         x: 71
@@ -434,20 +434,20 @@ TextureImporter:
         width: 17
         height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ce38e186b02cd1459cd980fc4ef2dd8
-      internalID: 8004929328363903390
+      spriteID: 4caaefb7a04461e45b49918a846ab2a7
+      internalID: -3768065635031969481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guards_North_Walk_3
+      name: Agent8_North_Walk_3
       rect:
         serializedVersion: 2
         x: 104
@@ -455,14 +455,14 @@ TextureImporter:
         width: 17
         height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cebd45f4cb45b64fa36c9e12a190e61
-      internalID: 3336604398646165468
+      spriteID: 9c2b58071de318740b4c22ad502360ca
+      internalID: -2879964410220711826
       vertices: []
       indices: 
       edges: []
@@ -470,7 +470,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fd5f374e7bb1bdd4da72a3bcc4a61efc
+    spriteID: a82b4e338af933e4090479c20960bfbf
     internalID: 0
     vertices: []
     indices: 
