@@ -36,25 +36,25 @@ public class FOVMeshGenerator : MonoBehaviour
     {
         Vector3[] points = new Vector3[Mathf.RoundToInt(360/angleBetweenPoints) + 1];
         points[0] = Vector3.zero;
-        Vector3 lastDirection = Vector3.right;
+        Vector3 lastDirection = Vector3.forward;
         for (int i = 0; i < Mathf.RoundToInt(360 / angleBetweenPoints); i++)
         {
             RaycastHit hit;
             if (Physics.Raycast(new Ray(transform.position, lastDirection), out hit, radius, clippingLayers)){
                 if ((hit.point - transform.position).magnitude < radius / 2)
                 {
-                    points[i + 1] = hit.point - transform.position + lastDirection * radius/2;
+                    points[i + 1] = hit.point - transform.position + transform.rotation * lastDirection * radius/2;
                 } else
                 {
-                    points[i + 1] = lastDirection * radius;
+                    points[i + 1] = transform.rotation * lastDirection * radius;
                 }
                 
             } else
             {
-                points[i + 1] = lastDirection * radius;
+                points[i + 1] = transform.rotation * lastDirection * radius;
             }
 
-            lastDirection = Quaternion.Euler(0,0,-angleBetweenPoints) * lastDirection;
+            lastDirection = Quaternion.Euler(0,-angleBetweenPoints,0) * lastDirection;
         }
         return points;
     }

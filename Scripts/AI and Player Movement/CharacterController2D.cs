@@ -72,9 +72,9 @@ public class CharacterController2D : MonoBehaviour
             horizontalInput *= diagMoveLimiter;
             verticalInput *= diagMoveLimiter;
 
-            targetVelocity = new Vector2(horizontalInput * runSpeed, verticalInput * runSpeed);
+            targetVelocity = new Vector3(horizontalInput * runSpeed, 0,verticalInput * runSpeed);
         }else{
-            targetVelocity = new Vector2(horizontalInput * runSpeed, verticalInput * runSpeed);
+            targetVelocity = new Vector3(horizontalInput * runSpeed, 0,verticalInput * runSpeed);
         }
 
         // Debug.Log("Hor speed: " + horizontalInput + "Vert speed: " + verticalInput);

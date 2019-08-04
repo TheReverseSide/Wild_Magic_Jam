@@ -193,22 +193,22 @@ PrefabInstance:
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
@@ -218,7 +218,7 @@ PrefabInstance:
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557947, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
@@ -230,26 +230,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8517026469995367390, guid: e63c55fda3d48e642b49bccd130ace97,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517026469995367390, guid: e63c55fda3d48e642b49bccd130ace97,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517026471111348193, guid: e63c55fda3d48e642b49bccd130ace97,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8517026471111348193, guid: e63c55fda3d48e642b49bccd130ace97,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: radius
@@ -259,6 +239,31 @@ PrefabInstance:
         type: 3}
       propertyPath: angleBetweenPoints
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: clippingLayers.m_Bits
+      value: 25398
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517026471111348193, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517026471111348193, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517026469995367390, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517026469995367390, guid: e63c55fda3d48e642b49bccd130ace97,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8517026470864557945, guid: e63c55fda3d48e642b49bccd130ace97, type: 3}

@@ -19,7 +19,7 @@ public class BeaconLauncher : MonoBehaviour
 
             directionOfThrow = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             directionOfThrow = directionOfThrow.normalized;
-            directionOfThrow = new Vector3(directionOfThrow.x, directionOfThrow.y, 0);
+            directionOfThrow = new Vector3(directionOfThrow.x, 0, directionOfThrow.z);
             spawnPos = transform.position + directionOfThrow * 3f;
 
             GameObject newBeacon = Instantiate(beaconPrefab, spawnPos, Quaternion.identity);
