@@ -4,35 +4,26 @@ using UnityEngine;
 
 public class Guard_Anim_Flipper : MonoBehaviour
 {
-    bool facingRight;
+    Rigidbody rigidbody;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rigidbody = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    // void Update()
-    // {
-    //     if ((horizontalInput > 0 || verticalInput > 0) && !facingRight)
-    //     {
-    //         Flip();
-    //     }
-    //     else if ((horizontalInput < 0 || verticalInput < 0) && facingRight)
-    //     {
-    //         Flip();
-    //     }
-    // }
-
-    private void Flip()
+    void Update()
     {
-        // Switch the way the player is labelled as facing.
-        facingRight = !facingRight;
-
-        // Multiply the player's x local scale by -1.
-        Vector3 theScale = transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
+        if(rigidbody.velocity.x > .1){
+            animator.SetFloat("MovingRight", rigidbody.velocity.x);
+        }else if(rigidbody.velocity.x < -.1){
+            animator.SetFloat("MovingLeft", rigidbody.velocity.x);
+        }else if (rigidbody.velocity.y > .1){
+            animator.SetFloat("MovingNorth", rigidbody.velocity.y);
+        }else if (rigidbody.velocity.y < -.1){
+            animator.SetFloat("MovingSouth", rigidbody.velocity.y);
+        }
     }
 }
