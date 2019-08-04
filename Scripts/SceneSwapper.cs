@@ -12,10 +12,6 @@ public class SceneSwapper : MonoBehaviour
         MainMenu,
         Level1Intro,
         Level1,
-        Level2Intro,
-        Level2,
-        Level3Intro,
-        Level3,
         Credits
     }
 
@@ -45,7 +41,7 @@ public class SceneSwapper : MonoBehaviour
         {
             currentScene = (SceneSelect)SceneManager.GetActiveScene().buildIndex;
         }
-        if (currentScene == SceneSelect.Level1 || currentScene == SceneSelect.Level2 || currentScene == SceneSelect.Level3)
+        if (currentScene == SceneSelect.Level1)
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {

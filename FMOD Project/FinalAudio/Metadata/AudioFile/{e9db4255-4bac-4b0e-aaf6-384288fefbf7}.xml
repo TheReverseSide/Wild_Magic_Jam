@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e9db4255-4bac-4b0e-aaf6-384288fefbf7}">
+		<property name="assetPath">
+			<value>Beacon Synth.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>77.142857142857139</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c2a65b06-5eb8-422d-83a2-c7eb793957d4}</destination>
+		</relationship>
+	</object>
+</objects>

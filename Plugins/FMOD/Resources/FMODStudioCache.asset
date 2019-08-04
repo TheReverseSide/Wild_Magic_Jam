@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8448509747341243513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Game Menu Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Game Menu Loop
+  guid: 08cb0389b9c10e4d9cae1c05a795c152
+  Banks:
+  - {fileID: 9002647479134423799}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6137561529722661911}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1140
 --- !u!114 &-7072031910385948341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,6 +43,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1000
+  Exists: 1
+--- !u!114 &-1795803260743295327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/Eliza Grafton/Desktop/GMTKJam2019-WildMagic/Assets/FMOD Project/FinalAudio/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637005187394333967
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 906
   Exists: 1
 --- !u!114 &-588074808613730846
 MonoBehaviour:
@@ -53,13 +97,93 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -588074808613730846}
-  - {fileID: -7072031910385948341}
-  EditorEvents: []
+  - {fileID: -1795803260743295327}
+  - {fileID: 9002647479134423799}
+  EditorEvents:
+  - {fileID: -8448509747341243513}
+  - {fileID: 7327884961746969389}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7072031910385948341}
+  - {fileID: 9002647479134423799}
   StringsBanks:
-  - {fileID: -588074808613730846}
-  stringsBankWriteTime: 637003401797323370
+  - {fileID: -1795803260743295327}
+  stringsBankWriteTime: 637005187394333967
   cacheVersion: 3
+--- !u!114 &6137561529722661911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game Menu Loop/Game Menu to Game
+  m_EditorClassIdentifier: 
+  Name: Game Menu to Game
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &6367669131174333933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Theme/Beacon
+  m_EditorClassIdentifier: 
+  Name: Beacon
+  Min: 1
+  Max: 2
+  Default: 1
+  Exists: 1
+--- !u!114 &7327884961746969389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Main Theme
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Main Theme
+  guid: 562c341fc4019047b6dafa38bc4d5e3e
+  Banks:
+  - {fileID: 9002647479134423799}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6367669131174333933}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 86571
+--- !u!114 &9002647479134423799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/Eliza Grafton/Desktop/GMTKJam2019-WildMagic/Assets/FMOD Project/FinalAudio/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637005187394304051
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2407424
+  Exists: 1

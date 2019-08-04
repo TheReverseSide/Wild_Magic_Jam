@@ -405,6 +405,7 @@ GameObject:
   - component: {fileID: 1016565593}
   - component: {fileID: 1016565591}
   - component: {fileID: 1016565595}
+  - component: {fileID: 1016565596}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -425,7 +426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 323, y: -74}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -438,8 +439,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1016565592}
-  selectedCommands:
-  - {fileID: 1016565595}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -504,6 +504,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1016565593}
   commandList:
   - {fileID: 1016565591}
+  - {fileID: 1016565596}
   - {fileID: 1016565595}
 --- !u!114 &1016565593
 MonoBehaviour:
@@ -535,7 +536,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1016565595
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -552,6 +553,25 @@ MonoBehaviour:
     stringVal: MainMenu
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1016565596
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016565589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  duration: 0.2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
 --- !u!1 &1128306917
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,13 +698,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697259362}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.24327642, y: 0, z: 0, w: 0.96995705}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -28.16, y: 0, z: 0}
 --- !u!1 &1922306844
 GameObject:
   m_ObjectHideFlags: 1

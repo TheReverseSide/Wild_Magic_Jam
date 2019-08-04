@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{0a66eea4-9dbd-45a2-ba71-250ccd17db90}">
+		<property name="assetPath">
+			<value>Level Loop Mix 1 wave.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>68.727256235827667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c2a65b06-5eb8-422d-83a2-c7eb793957d4}</destination>
+		</relationship>
+	</object>
+</objects>
