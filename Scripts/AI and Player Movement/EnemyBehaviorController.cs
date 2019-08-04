@@ -6,9 +6,9 @@ using System.Collections;
 //Behavior_patrol should be the default behavior until they get in range, then they attack (player in range script takes over)
 public class EnemyBehaviorController : MonoBehaviour
 {
-    public float movementSpeed = 5f; //This should be changed because currently the player can outrun the guards
+    public float movementSpeed = 10f; //This should be changed because currently the player can outrun the guards
     
-    float searchRadius = 5f; //How far will the guards look for the player
+    float searchRadius = 2.5f; //How far will the guards look for the player
     GameObject player;
     bool playerFound;
     Vector3 target;

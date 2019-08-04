@@ -9,7 +9,7 @@ public class Behavior_Patrol : MonoBehaviour
     public int destPoint = 0;
     private NavMeshAgent agent;
     
-    void Awake () {
+    void Start () {
         agent = GetComponent<NavMeshAgent>();
 
         agent.autoBraking = false; // Disabling auto-braking allows for continuous movement between points (ie, the agent doesn't slow down as it pproaches a destination point).
@@ -29,10 +29,9 @@ public class Behavior_Patrol : MonoBehaviour
 
     void GotoNextPoint() {
         if(points.Length > 0){
-            agent.speed = Random.Range(2f, 3f); //Random speed variation
-            agent.acceleration = Random.Range(4f, 6f); //Random speed variation
-            agent.angularSpeed = Random.Range(80, 110); //Random turning speed
-
+            agent.speed = Random.Range(2f, 5f); //Random speed variation
+            agent.acceleration = Random.Range(4f, 10f); //Random speed variation
+            agent.angularSpeed = Random.Range(80, 140); //Random turning speed
 
             // if(Random.Range(0,10) > 6){ //Occasionally the AI stops at random points
             //     agent.autoBraking = true;
