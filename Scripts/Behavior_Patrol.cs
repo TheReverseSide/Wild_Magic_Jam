@@ -28,6 +28,15 @@ public class Behavior_Patrol : MonoBehaviour
 
     void GotoNextPoint() {
         if(points.Length > 0){
+            agent.speed = Random.Range(2f, 5f); //Random speed variation
+            agent.acceleration = Random.Range(4f, 10f); //Random speed variation
+            agent.angularSpeed = Random.Range(80, 140); //Random turning speed
+
+            if(Random.Range(0,10) > 6){ //Occasionally the AI stops at random points
+                agent.autoBraking = true;
+            }else agent.autoBraking = false;
+            
+
             // Set the agent to go to the currently selected destination.
             agent.destination = points[destPoint].position;
 
@@ -38,7 +47,7 @@ public class Behavior_Patrol : MonoBehaviour
 
     void Update () {
         // Choose the next destination point when the agent gets close to the current one.
-        if (!agent.pathPending && agent.remainingDistance < 0.3f)
+        if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GotoNextPoint();
     }
 }
