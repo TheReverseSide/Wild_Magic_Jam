@@ -43,18 +43,18 @@ public class FOVMeshGenerator : MonoBehaviour
             if (Physics.Raycast(new Ray(transform.position, lastDirection), out hit, radius, clippingLayers)){
                 if ((hit.point - transform.position).magnitude < radius / 2)
                 {
-                    points[i + 1] = hit.point - transform.position + transform.rotation * lastDirection * radius/2;
+                    points[i + 1] = hit.point - transform.position + Quaternion.Euler(-transform.rotation.eulerAngles.x,0,0)* lastDirection * radius/2;
                 } else
                 {
-                    points[i + 1] = transform.rotation * lastDirection * radius;
+                    points[i + 1] = Quaternion.Euler(-transform.rotation.eulerAngles.x, 0, 0) * lastDirection * radius;
                 }
                 
             } else
             {
-                points[i + 1] = transform.rotation * lastDirection * radius;
+                points[i + 1] = Quaternion.Euler(-transform.rotation.eulerAngles.x, 0, 0) * lastDirection * radius;
             }
 
-            lastDirection = Quaternion.Euler(0,-angleBetweenPoints,0) * lastDirection;
+            lastDirection = Quaternion.Euler(0,angleBetweenPoints,0) * lastDirection;
         }
         return points;
     }

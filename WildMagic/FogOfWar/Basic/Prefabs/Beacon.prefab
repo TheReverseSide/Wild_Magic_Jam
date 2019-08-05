@@ -233,12 +233,12 @@ PrefabInstance:
     - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: radius
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}
       propertyPath: angleBetweenPoints
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8517026470864557950, guid: e63c55fda3d48e642b49bccd130ace97,
         type: 3}

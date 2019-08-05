@@ -22,6 +22,8 @@ public class SceneSwapper : MonoBehaviour
 
     public delegate void UnPaused();
     public static UnPaused unpausegame = null;
+    public delegate void GotKilled();
+    public static GotKilled gotkilled = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,11 +49,6 @@ public class SceneSwapper : MonoBehaviour
             {
                 isPaused = true;
                 pausegame();
-            }
-
-            if (Input.GetKeyDown(KeyCode.P))
-            {
-                GoToNextLevel();
             }
         } else if (currentScene == SceneSelect.MainMenu)
         {

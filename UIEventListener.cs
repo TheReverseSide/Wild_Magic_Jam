@@ -9,6 +9,13 @@ public class UIEventListener : MonoBehaviour
     private void Awake()
     {
         SceneSwapper.pausegame += ShowPauseMenu;
+        SceneSwapper.gotkilled += YouWereCaught;
+    }
+
+    private void OnDestroy()
+    {
+        SceneSwapper.pausegame -= ShowPauseMenu;
+        SceneSwapper.gotkilled -= YouWereCaught;
     }
     void ShowPauseMenu()
     {

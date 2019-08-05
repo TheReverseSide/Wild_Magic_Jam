@@ -74,6 +74,7 @@ public class EnemyBehaviorController : MonoBehaviour
         patrolBehavior.ManualStart();
         playerFound = false;
         target = Vector3.zero;
+        SceneSwapper.gotkilled();
     }
 }
 

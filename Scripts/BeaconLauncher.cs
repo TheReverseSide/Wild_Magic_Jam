@@ -18,9 +18,8 @@ public class BeaconLauncher : MonoBehaviour
             Vector3 spawnPos;
             float speed = 15f;
 
-            directionOfThrow = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
+            directionOfThrow = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, 0, Camera.main.ScreenToWorldPoint(Input.mousePosition).z) - transform.position;
             directionOfThrow = directionOfThrow.normalized;
-            directionOfThrow = new Vector3(directionOfThrow.x, 0, directionOfThrow.z);
             spawnPos = transform.position + directionOfThrow * 3f;
 
             GameObject newBeacon = Instantiate(beaconPrefab, spawnPos, Quaternion.identity);
@@ -35,6 +34,14 @@ public class BeaconLauncher : MonoBehaviour
             hasABeacon = true;
             Destroy(collision.collider.gameObject);
             fmodMusic.SetParameter("Beacon", 1);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "End")
+        {
+            SceneSwapper.swapper.GoToNextLevel();
         }
     }
 }

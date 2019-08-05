@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 11574107}
   - component: {fileID: 11574106}
   - component: {fileID: 11574110}
+  - component: {fileID: 11574111}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -220,6 +221,7 @@ MonoBehaviour:
   - {fileID: 11574102}
   - {fileID: 11574103}
   - {fileID: 11574105}
+  - {fileID: 11574111}
   - {fileID: 11574109}
   - {fileID: 11574106}
   - {fileID: 11574107}
@@ -249,8 +251,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 11574099}
+  selectedCommands:
+  - {fileID: 11574105}
   variables: []
   description: 
   stepPause: 0
@@ -373,7 +377,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: That, and well...budget cuts.
+  storyText: "It's a beacon. Throw it and it\u2019ll emit ultraviolet light that your
+    goggles can detect. Pick it up and it\u2019ll turn off. We would\u2019ve given
+    you night vision goggles, but like you said, we had to get you out there fast."
   description: 
   character: {fileID: 328546287}
   portrait: {fileID: 0}
@@ -514,6 +520,33 @@ MonoBehaviour:
     stringVal: Level1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &11574111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11574096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  storyText: That, and well...budget cuts.
+  description: 
+  character: {fileID: 328546287}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &26120798
 GameObject:
   m_ObjectHideFlags: 1
